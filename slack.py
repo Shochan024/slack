@@ -4,6 +4,8 @@ import json
 import dotenv
 import urllib.request
 
+__all__ = ["SlackDealer"]
+
 class SlackDealer:
     """
     スラックを効率よく扱うクラス
